@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, h4, ul {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  * {
+  /*  background-color: #d4effe; */
+  }
+
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8fcbff; /* Header background color */
+    padding: 10px 20px;
+    color: #fff; /* Header text color */
+  }
+  
+  /* Logo styles */
+  #logo {
+    max-width: 70px; /* Adjust the size of the logo */
+    height: auto;
+    background-color: #8fcbff;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: #8fcbff;
+  }
+  nav li {
+    background-color: #8fcbff;
+    font-size: 1.5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: #000000; /* Link color */
+    font-weight: bolder;
+    font-family: 'Nunito sans';
+  }
+
+h1 {
+    font-size: 3rem;
+}
+/* Title styles */
+#title {
+    text-align: center;
+    padding: 20px;
+    font-family: Oswald;
+    background-color: #d4effe;
+    text-decoration: underline;
+  }
+  
+  /* Top banner styles */
+.topbanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px;
+    background-color: #d4effe; /* Background color for the top banner */
+  }
+  
+  .topbanner h2, .topbanner h3 {
+    margin: 0;
+    font-family: Oswald;
+  }
+
+  .topbanner h2 {
+    font-size: 2rem;
+  }
+
+  .topbanner h3 {
+    font-size: 1.5rem;
+  }
+  
+  .topbanner > div {
+    flex: 1;
+    padding-right: 20px; /* Add some spacing between the sections */
+  }
+  
+  /* Profile picture styles */
+  #profpic {
+    max-height: 400px; /* Maximum height for the image */
+    width: auto;
+    flex-shrink: 0; /* Prevent image from shrinking */
+    justify-items: end;
+  }
+
+  .subheader {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    padding: 20px;
+    background-color: #d4effe; /* Background color for the top banner */
+  }
+  
+  .subheader h2, .subheader h3 {
+    margin: 0;
+    padding: 10px;
+    font-family: Oswald;
+  }
+
+  
+  /* Media query for responsive adjustments */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+  
+  
+  
+  
+    
